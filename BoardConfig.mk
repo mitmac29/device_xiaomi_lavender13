@@ -174,7 +174,7 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 
 # ViPER4AndroidFX Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
-    device/xiaomi/raphael/sepolicy/vendor/ViPER4AndroidFX
+    $(DEVICE_PATH)/sepolicy/vendor/ViPER4AndroidFX
 
 # Treble
 BOARD_VNDK_VERSION := current
