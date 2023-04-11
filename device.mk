@@ -461,3 +461,7 @@ PRODUCT_PACKAGES += \
 # DeviceDoze
 PRODUCT_PACKAGES += \
     DeviceDoze
+
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    FilesD
