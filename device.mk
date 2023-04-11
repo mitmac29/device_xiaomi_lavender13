@@ -465,3 +465,7 @@ PRODUCT_PACKAGES += \
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     FilesD
+
+# Browser
+PRODUCT_PACKAGES += \
+     Via
