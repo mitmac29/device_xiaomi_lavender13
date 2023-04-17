@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # ViPER4Android FX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
-# Inherit some common Bootleggers ROM stuff
-$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
+# Inherit some common Yaap stuff
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -21,17 +21,14 @@ TARGET_USES_AOSP_CHARGER := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_INCLUDE_STOCK_ARCORE := false
 DEVICE_MAINTAINER := MiteshMacwana
-
-# Maintainer Prop
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.bootleggers.maintainer=MiteshMacwana
+TARGET_BUILD_GAPPS := true
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, $(LOCAL_PATH)/device-hidl.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := bootleg_lavender
+PRODUCT_NAME := yaap_lavender
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
