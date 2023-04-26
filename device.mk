@@ -462,10 +462,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DeviceDoze
 
-# Prebuilt Packages
-PRODUCT_PACKAGES += \
-    FilesD
-
 # Browser
 PRODUCT_PACKAGES += \
      Via
