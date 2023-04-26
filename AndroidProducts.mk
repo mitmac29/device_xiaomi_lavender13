@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_lavender.mk
+    $(LOCAL_DIR)/arrow_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_lavender-user \
-    yaap_lavender-userdebug \
-    yaap_lavender-eng
+    arrow_lavender-user \
+    arrow_lavender-userdebug \
+    arrow_lavender-eng
