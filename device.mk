@@ -457,7 +457,3 @@ PRODUCT_PACKAGES += \
 # DeviceDoze
 PRODUCT_PACKAGES += \
     DeviceDoze
-
-# Browser
-PRODUCT_PACKAGES += \
-     Via
