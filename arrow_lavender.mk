@@ -23,10 +23,6 @@ TARGET_INCLUDE_STOCK_ARCORE := false
 DEVICE_MAINTAINER := MiteshMacwana
 ARROW_MAINTAINER := MiteshMacwana
 MAINTAINER_NAME := MiteshMacwana
-ARROW_BUILD_ZIP_TYPE := GAPPS
-ARROW_GAPPS := true
-
-$(call inherit-product, vendor/gapps/common/common-vendor.mk)
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
