@@ -25,7 +25,7 @@ SYBERIA_MAINTAINER := MiteshMacwana
 MAINTAINER_NAME := MiteshMacwana
 WITH_GMS := true
 
-$(call inherit-product, vendor/syberia/config/telephony.mk
+$(call inherit-product, vendor/syberia/config/telephony.mk)
 
 $(call inherit-product, vendor/google/gms/config.mk)
 
