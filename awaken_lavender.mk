@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # ViPER4Android FX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
-# Inherit some common ArrowOS stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common AwakenOS stuff
+$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -21,7 +21,7 @@ TARGET_USES_AOSP_CHARGER := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_INCLUDE_STOCK_ARCORE := false
 DEVICE_MAINTAINER := MiteshMacwana
-ARROW_MAINTAINER := MiteshMacwana
+AWAKEN_MAINTAINER := MiteshMacwana
 MAINTAINER_NAME := MiteshMacwana
 
 # Inherit from lavender device
@@ -29,7 +29,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, $(LOCAL_PATH)/device-hidl.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_lavender
+PRODUCT_NAME := awaken_lavender
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
